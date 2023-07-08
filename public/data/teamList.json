@@ -1,0 +1,77 @@
+{
+    "data": [{
+            "name": "Garud",
+            "key": "GARUD",
+            "balanceAmount" : 7300,
+            "captain" : {
+                "firstName" : "Vineet",
+                "lastName" : "Mishra",
+                "category" : "CHAMPION",
+                "profilePicture": "./data/captains/vineet.png"           
+            },
+            "players": []
+        },
+        {
+            "name": "BlackCats",
+            "key": "BLACKCATS",
+            "balanceAmount" : 5800,
+            "captain" : {
+                "firstName" : "Subhash",
+                "lastName" : "Mandal",
+                "order" : 1,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/captains/subhash.png"           
+            },
+            "players": []
+        },
+        {
+            "name": "Force One",
+            "key": "FORCEONE",
+            "balanceAmount" : 900,
+            "captain" : {
+                "firstName" : "Aman",
+                "lastName" : "Gupta",
+                "order" : 1,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/captains/aman.png"              
+            },
+            "players": []
+        }, {
+            "name": "MARCOS",
+            "key": "MARCOS",
+            "balanceAmount" : 3000,
+            "captain" : {
+                "firstName" : "Anurag",
+                "lastName" : "Choudhary",
+                "order" : 6,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/anurag/profile-pic.png"      
+            },
+            "players": []
+        }, {
+            "name": "Special Frontier",
+            "key": "SPECIALFRONTIER",
+            "balanceAmount" : 5900,
+            "captain" : {
+                "firstName" : "Chittu",
+                "lastName" : "",
+                "order" : 1,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/captains/chittu.png"             
+            },
+            "players": []
+        },{
+            "name": "Cobra",
+            "key": "COBRA",
+            "balanceAmount" : 1500,
+            "captain" : {
+                "firstName" : "Navneet",
+                "lastName" : "Gaur",
+                "order" : 1,
+                "category" : "ELITE",
+                "profilePicture": "./data/captains/navneet.png"           
+            },
+            "players": []
+        }
+    ]
+}

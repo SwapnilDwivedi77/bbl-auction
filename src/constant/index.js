@@ -1,0 +1,26 @@
+export const PLAYER_CATEGORY ={
+    MARQUEE:'MARQUEE',
+    CHAMPION : 'CHAMPION',
+    ELITE : 'ELITE',
+    CHALLENGER : 'CHALLENGER'
+}
+
+export const CATEGORY_COLOR = {
+    [PLAYER_CATEGORY.MARQUEE] : '#FF007F',
+    [PLAYER_CATEGORY.CHAMPION] : '#00BFFF',
+    [PLAYER_CATEGORY.ELITE] : '#FFFF00',
+    [PLAYER_CATEGORY.CHALLENGER] : '#FF7F50',
+
+}
+
+export const TOTAL_PURSE = 100000
+
+export const BASE_PRICE = {
+    [PLAYER_CATEGORY.MARQUEE] : 15000,
+    [PLAYER_CATEGORY.CHAMPION] : 12000,
+    [PLAYER_CATEGORY.ELITE] : 8000,
+    [PLAYER_CATEGORY.CHALLENGER] : 6000
+
+}
+
+export const IMG_BASE_URL = '/Users/nil_07/Desktop/My_Folder/bbl-auction/public/data'
