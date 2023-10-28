@@ -1,75 +1,75 @@
 {
     "data": [{
-            "name": "Garud",
-            "key": "GARUD",
-            "balanceAmount" : 7300,
+            "name": "Bullet",
+            "key": "BULLET",
+            "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Vineet",
-                "lastName" : "Mishra",
+                "firstName" : "Ankit",
+                "lastName" : "",
                 "category" : "CHAMPION",
-                "profilePicture": "./data/captains/vineet.png"           
+                "profilePicture": "./data/ankit/profile-pic.png"           
             },
             "players": []
         },
         {
-            "name": "BlackCats",
-            "key": "BLACKCATS",
-            "balanceAmount" : 5800,
+            "name": "Continental GT",
+            "key": "CONTINENTAL",
+            "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Subhash",
-                "lastName" : "Mandal",
+                "firstName" : "Vamsi K",
+                "lastName" : "Dash",
                 "order" : 1,
-                "category" : "CHAMPION",
-                "profilePicture": "./data/captains/subhash.png"           
+                "category" : "MARQUEE",
+                "profilePicture": "./data/vamsi/profile-pic.png"           
             },
             "players": []
         },
         {
-            "name": "Force One",
-            "key": "FORCEONE",
-            "balanceAmount" : 900,
+            "name": "Himalayan",
+            "key": "HIMALAYAN",
+            "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Aman",
+                "firstName" : "Sharat",
+                "lastName" : "Mathew",
+                "order" : 1,
+                "category" : "MARQUEE",
+                "profilePicture": "./data/sharat/profile-pic.png"              
+            },
+            "players": []
+        }, {
+            "name": "Hunter",
+            "key": "HUNTER",
+            "balanceAmount" : 0,
+            "captain" : {
+                "firstName" : "Minkesh",
                 "lastName" : "Gupta",
-                "order" : 1,
-                "category" : "CHAMPION",
-                "profilePicture": "./data/captains/aman.png"              
-            },
-            "players": []
-        }, {
-            "name": "MARCOS",
-            "key": "MARCOS",
-            "balanceAmount" : 3000,
-            "captain" : {
-                "firstName" : "Anurag",
-                "lastName" : "Choudhary",
                 "order" : 6,
-                "category" : "CHAMPION",
-                "profilePicture": "./data/anurag/profile-pic.png"      
+                "category" : "MARQUEE",
+                "profilePicture": "./data/minkesh/profile-pic.png"      
             },
             "players": []
         }, {
-            "name": "Special Frontier",
-            "key": "SPECIALFRONTIER",
-            "balanceAmount" : 5900,
+            "name": "Interceptor",
+            "key": "INTERCEPTOR",
+            "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Chittu",
+                "firstName" : "Viraj",
                 "lastName" : "",
                 "order" : 1,
                 "category" : "CHAMPION",
-                "profilePicture": "./data/captains/chittu.png"             
+                "profilePicture": "./data/viraj/profile-pic.png"             
             },
             "players": []
         },{
-            "name": "Cobra",
-            "key": "COBRA",
-            "balanceAmount" : 1500,
+            "name": "Meteor",
+            "key": "METEOR",
+            "balanceAmount" : 0,
             "captain" : {
                 "firstName" : "Navneet",
                 "lastName" : "Gaur",
                 "order" : 1,
                 "category" : "ELITE",
-                "profilePicture": "./data/captains/navneet.png"           
+                "profilePicture": "./data/navneet/profile-pic.png"           
             },
             "players": []
         }

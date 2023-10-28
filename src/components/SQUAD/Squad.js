@@ -21,18 +21,28 @@ import { faC, faStar } from "@fortawesome/free-solid-svg-icons";
 import { PlayerItem } from "./PlayerItem";
 import UnsoldPlayerList from "./UnsoldPlayer";
 import { styled } from "styled-components";
+import TeamCard from "./TeamData";
 
 
 
 const getTeamPurse = (team) => {
+  console.log("🚀 ~ file: Squad.js:29 ~ getTeamPurse ~ team:", team)
+  
   let remainingAmount = TOTAL_PURSE + parseInt(team.balanceAmount);
-  remainingAmount -= 1.5 * BASE_PRICE[team.captain.category];
+  remainingAmount -= (team.key === "METEOR" ? 1.5 : 1.5) * BASE_PRICE[team.captain.category];
   !isEmpty(team.players) &&
     team.players.forEach(
       (player) => (remainingAmount -= parseInt(player.soldPrice))
     );
   return remainingAmount;
 };
+
+const TeamDataWrapper = styled.div`
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around;
+margin: 0 20px 0 -40px;`
 
 const SquadItem = ({ team }) => {
   return (
@@ -42,7 +52,7 @@ const SquadItem = ({ team }) => {
           <div className="squad-name">{team.name} </div>
           <span style={{ "font-weight": "normal", margin: "8px" }}>{`(${
             team.players.length + 1
-          }/5)`}</span>
+          }/6)`}</span>
           <div className="squad-purse">₹ {getTeamPurse(team)}</div>
         </div>
         <div className="player-list">
@@ -175,6 +185,11 @@ function Squad() {
       {!isEmpty(unSoldPlayers) && <UnsoldPlayerList unSoldPlayers={unSoldPlayers}/>}
       </RightSection>
       </Wrapper>
+      <TeamDataWrapper>
+      {!isEmpty(teamsList) &&
+          teamsList.map((team, i) => <TeamCard key={i} team={team} getTeamPurse={getTeamPurse} />)}
+     
+      </TeamDataWrapper>
       
     </div>
   );

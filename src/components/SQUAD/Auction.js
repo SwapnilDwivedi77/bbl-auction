@@ -34,7 +34,7 @@ function Auction({
   const [auctionPlayer, setAuctionPlayer] = useState(unSoldList[0]);
   const [selectedTeam, setSelectedTeam] = useState("");
   const [visibleConffeti, setVisibleConffeti] = useState(false);
-
+console.log({unSoldList})
   const handleNextPlayer = () => {
     let skippedPlayer = unSoldList.splice(0, 1)[0];
     skippedPlayer.order = unSoldList[unSoldList.length - 1].order + 1;
@@ -89,7 +89,9 @@ function Auction({
     // scrollToElement("squad-list");
 
     document.getElementById("bid").value = "";
-    handleNextPlayer()
+    setUnSoldPlayers(unSoldList);
+    setCurrentPlayerIndex(0);
+    setAuctionPlayer(unSoldList[0]);
   };
 
   const {

@@ -36,51 +36,51 @@ export default function Dropdown({handleDropdownChange,teamsList}) {
           className="dropdown-content"
           style={{ display: isActive ? "block" : "none" }}
         >
-          {teamsList?.filter(team=>team.key==='GARUD')[0].players.length < 4 &&<div
+          {teamsList?.filter(team=>team.key==='BULLET')[0].players.length < 5 &&<div
             onClick={(e) => handleChange(e)}
             className="item"
-            value={'GARUD'}
+            value={'BULLET'}
           >
-            GARUD
+            BULLET
           </div>}
-          {teamsList?.filter(team=>team.key==='BLACKCATS')[0].players.length < 4 &&<div
+          {teamsList?.filter(team=>team.key==='CONTINENTAL')[0].players.length < 5 &&<div
             className="item"
             onClick={(e) => handleChange(e)}
-            value={'BLACKCATS'}
+            value={'CONTINENTAL'}
           >
-            BlackCats
+            CONTINENTAL
           </div>}
-          {teamsList?.filter(team=>team.key==='FORCEONE')[0].players.length < 4 &&<div
+          {teamsList?.filter(team=>team.key==='HIMALAYAN')[0].players.length < 5 &&<div
             className="item"
             onClick={(e) => handleChange(e)}
-            value={'FORCEONE'}
+            value={'HIMALAYAN'}
 
           >
-            ForceOne
+            HIMALAYAN
           </div>}
-          {teamsList?.filter(team=>team.key==='MARCOS')[0].players.length < 4 &&<div
+          {teamsList?.filter(team=>team.key==='HUNTER')[0].players.length < 5 &&<div
             className="item"
             onClick={(e) => handleChange(e)}
-            value={'MARCOS'}
+            value={'HUNTER'}
 
           >
-            MARCOS
+            HUNTER
           </div>}
-          {teamsList?.filter(team=>team.key==='SPECIALFRONTIER')[0].players.length < 4 &&<div
+          {teamsList?.filter(team=>team.key==='INTERCEPTOR')[0].players.length < 5 &&<div
             className="item"
             onClick={(e) => handleChange(e)}
-            value={'SPECIALFRONTIER'}
+            value={'INTERCEPTOR'}
 
           >
-            SpecialFrontier
+            INTERCEPTOR
           </div>}
           <div
             className="item"
             onClick={(e) => handleChange(e)}
-            value={'COBRA'}
+            value={'METEOR'}
 
           >
-            Cobra
+            Meteor
           </div>
         </div>
       </div>

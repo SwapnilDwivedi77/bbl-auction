@@ -12,7 +12,7 @@ const Heading = () => {
   return (
     <div className="heading">
       <img src={logo} alt="Logo" className="logo" />
-      <h1 className="title">BBL 12</h1>
+      <h1 className="title">BBL 16</h1>
     </div>
   );
 };
@@ -36,7 +36,7 @@ function Home() {
       <h1> <span> Welcome</span> to BBL Auction</h1>
       </div>
       <div className='subtext'>
-      From seasoned veterans to rising stars, the BBL 12 Auction has something for everyone. Choose your players wisely watch them lead your team to victory.
+      From seasoned veterans to rising stars, the BBL 16 Auction has something for everyone. Choose your players wisely watch them lead your team to victory.
     
       </div>
 
@@ -45,7 +45,7 @@ function Home() {
       <ul className="list">
         <li>
           {/* <img src={shuttle} alt="bullet" className="bullet" /> */}
-          <span className="item-bold">19</span> Players to go under hammer
+          <span className="item-bold">30</span> Players to go under hammer
         </li>
         <li>
           {/* <img src={shuttle} alt="bullet" className="bullet" /> */}
@@ -53,7 +53,7 @@ function Home() {
         </li>
         <li>
           {/* <img src={shuttle}alt="bullet" className="bullet" /> */}
-          <span className="item-bold">5</span> Total players in each team
+          <span className="item-bold">6</span> Total players in each team
         </li>
       </ul>
       </div>
