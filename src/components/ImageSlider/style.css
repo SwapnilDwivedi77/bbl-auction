@@ -1,0 +1,14 @@
+.imgslider{
+    width: 790px;
+    height:400px;
+} 
+.tag {
+    text-align: center;
+}
+ 
+.slick-slide img {
+    border:6px solid #193987;
+    border-radius: 18px;
+    width: 75%;
+    height: 50%;
+}

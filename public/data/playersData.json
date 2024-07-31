@@ -1,215 +1,249 @@
 {
-    "data": [
-      {
-        "firstName": "Abhinav",
-        "lastName": "Gupta",
-        "order": 17,
-        "category": "ELITE",
-        "profilePicture": "./data/abhinav/profile-pic.png"
-      },
-      {
-        "firstName": "Aman",
-        "lastName": "Gupta",
-        "order": 6,
-        "category": "ELITE",
-        "profilePicture": "./data/aman/profile-pic.png"
-      },
-      {
-        "firstName": "Anupam",
-        "lastName": "Mangal",
-        "order": 16,
-        "category": "CHAMPION",
-        "profilePicture": "./data/anupam/profile-pic.png"
-      },
-      {
-        "firstName": "Harshi",
-        "lastName": "Gupta",
-        "order": 11,
-        "category": "ELITE",
-        "profilePicture": "./data/harshi/profile-pic.png"
-      },
-      {
-        "firstName": "Pavan",
-        "lastName": "Naidu",
-        "order": 24,
-        "category": "ELITE",
-        "profilePicture": "./data/pavan/profile-pic.png"
-      },
-      {
-        "firstName": "Prinz",
-        "lastName": "Dom",
-        "order": 19,
-        "category": "MARQUEE",
-        "profilePicture": "./data/prinz/profile-pic.png"
-      },
-      {
-        "firstName": "Sairam",
-        "lastName": "Goli",
-        "order": 15,
-        "category": "MARQUEE",
-        "profilePicture": "./data/sairam/profile-pic.png"
-      },
-      {
-        "firstName": "Sunny",
-        "lastName": "",
-        "order": 12,
-        "category": "CHAMPION",
-        "profilePicture": "./data/sunny/profile-pic.png"
-      },
-      {
-        "firstName": "Swapnil",
-        "lastName": "Dwivedi",
-        "order": 13,
-        "category": "CHAMPION",
-        "profilePicture": "./data/swapnil/profile-pic.png"
-      },
-      {
-        "firstName": "Sweta",
-        "lastName": "Bairathi",
-        "order": 26,
-        "category": "CHALLENGER",
-        "profilePicture": "./data/sweta/profile-pic.png"
-      },
-      {
-        "firstName": "Nikhil",
-        "lastName": "Krishna",
-        "order": 29,
-        "category": "CHALLENGER",
-        "profilePicture": "./data/nikhil/profile-pic.png"
-      },
-      {
-        "firstName": "Army",
-        "lastName": "Vamsi",
-        "order": 4,
-        "category": "ELITE",
-        "profilePicture": "./data/army/profile-pic.png"
-      },
-      {
-        "firstName": "Arun",
-        "lastName": "Rowthu",
-        "order": 8,
-        "category": "CHAMPION",
-        "profilePicture": "./data/arun/profile-pic.png"
-      },
-      {
-        "firstName": "Dr",
-        "lastName": "Vee",
-        "order": 10,
-        "category": "MARQUEE",
-        "profilePicture": "./data/drveer/profile-pic.png"
-      },
-      {
-        "firstName": "Haritha",
-        "lastName": "K",
-        "order": 9,
-        "category": "CHAMPION",
-        "profilePicture": "./data/haritha/profile-pic.png"
-      },
-      {
-        "firstName": "Naga",
-        "lastName": "Karteek",
-        "order": 23,
-        "category": "CHAMPION",
-        "profilePicture": "./data/karteek/profile-pic.png"
-      },
-      {
-        "firstName": "Kartikey",
-        "lastName": null,
-        "order": 14,
-        "category": "MARQUEE",
-        "profilePicture": "./data/kartikey/profile-pic.png"
-      },
-      {
-        "firstName": "Lochan",
-        "lastName": "Sharma",
-        "order": 1,
-        "category": "CHAMPION",
-        "profilePicture": "./data/lochan/profile-pic.png"
-      },
-      {
-        "firstName": "Lokeshwar",
-        "lastName": "Reddy",
-        "order": 3,
-        "category": "ELITE",
-        "profilePicture": "./data/lokesh/profile-pic.png"
-      },
-      {
-        "firstName": "Mageswaran",
-        "lastName": "PV",
-        "order": 22,
-        "category": "ELITE",
-        "profilePicture": "./data/mageshwaran/profile-pic.png"
-      },
-      {
-        "firstName": "Nishant",
-        "lastName": "Shah",
-        "order": 30,
-        "category": "CHALLENGER",
-        "profilePicture": "./data/nishant/profile-pic.png"
-      },
-      {
-        "firstName": "Peeyush",
-        "lastName": "Pallav",
-        "order": 5,
-        "category": "MARQUEE",
-        "profilePicture": "./data/peeyush/profile-pic.png"
-      },
-      {
-        "firstName": "Rahul",
-        "lastName": "Sharma",
-        "order": 7,
-        "category": "MARQUEE",
-        "profilePicture": "./data/rahul/profile-pic.png"
-      },
-      {
-        "firstName": "Ritik",
-        "lastName": "Kakwani",
-        "order": 21,
-        "category": "MARQUEE",
-        "profilePicture": "./data/ritik/profile-pic.png"
-      },
-      {
-        "firstName": "Santhosh",
-        "lastName": "A",
-        "order": 18,
-        "category": "MARQUEE",
-        "profilePicture": "./data/santosh/profile-pic.png"
-      },
-      {
-        "firstName": "Soundar",
-        "lastName": "S",
-        "order": 28,
-        "category": "ELITE",
-        "profilePicture": "./data/rajan/profile-pic.png"
-      },
-      {
-        "firstName": "Subir",
-        "lastName": "Choudhury",
-        "order": 2,
-        "category": "CHAMPION",
-        "profilePicture": "./data/subir/profile-pic.png"
-      },
-      {
-        "firstName": "Sudhanshu",
-        "lastName": "R",
-        "order": 20,
-        "category": "ELITE",
-        "profilePicture": "./data/sudhanshu/profile-pic.png"
-      },
-      {
-        "firstName": "Tej",
-        "lastName": "Singh",
-        "order": 25,
-        "category": "CHAMPION",
-        "profilePicture": "./data/tej/profile-pic.png"
-      },
-      {
-        "firstName": "Vikas",
-        "lastName": "Vemu",
-        "order": 27,
-        "category": "ELITE",
-        "profilePicture": "./data/vikas/profile-pic.png"
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "firstName": "Vikas",
+      "lastName": "Vernu",
+      "order": 1,
+      "category": "ELITE",
+      "profilePicture": "./data/vikas/profile-pic.png"
+    },
+    {
+      "firstName": "Hussain",
+      "lastName": "",
+      "order": 2,
+      "category": "MARQUEE",
+      "profilePicture": "./data/hussain/profile-pic.png"
+    },
+    {
+      "firstName": "Ankit",
+      "lastName": "Pujari",
+      "order": 3,
+      "category": "CHAMPION",
+      "profilePicture": "./data/ankit/profile-pic.png"
+    },
+    {
+      "firstName": "Sai",
+      "lastName": "Charan",
+      "order": 4,
+      "category": "MARQUEE",
+      "profilePicture": "./data/sai/profile-pic.png"
+    },
+    {
+      "firstName": "Kusuma",
+      "lastName": "Nerella",
+      "order": 5,
+      "category": "ELITE",
+      "profilePicture": "./data/kusuma/profile-pic.png"
+    },
+    {
+      "firstName": "Vivek",
+      "lastName": "Lakhera",
+      "order": 6,
+      "category": "MARQUEE",
+      "profilePicture": "./data/vivek-la/profile-pic.png"
+    },
+    {
+      "firstName": "Haritha",
+      "lastName": "K",
+      "order": 7,
+      "category": "CHAMPION",
+      "profilePicture": "./data/haritha/profile-pic.png"
+    },
+    {
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "order": 8,
+      "category": "MARQUEE",
+      "profilePicture": "./data/rahul/profile-pic.png"
+    },
+    {
+      "firstName": "Arun",
+      "lastName": "Rowthu",
+      "order": 9,
+      "category": "CHAMPION",
+      "profilePicture": "./data/arun/profile-pic.png"
+    },
+    {
+      "firstName": "Mani",
+      "lastName": "",
+      "order": 10,
+      "category": "MARQUEE",
+      "profilePicture": "./data/mani/profile-pic.png"
+    },
+    {
+      "firstName": "Lokesh",
+      "lastName": "Chowdary",
+      "order": 11,
+      "category": "ELITE",
+      "profilePicture": "./data/lokesh-ch/profile-pic.png"
+    },
+    {
+      "firstName": "Vinayak",
+      "lastName": "Gupta",
+      "order": 12,
+      "category": "MARQUEE",
+      "profilePicture": "./data/vinayak/profile-pic.png"
+    },
+    {
+      "firstName": "Vinod",
+      "lastName": "Kumar",
+      "order": 13,
+      "category": "CHAMPION",
+      "profilePicture": "./data/vinod/profile-pic.png"
+    },
+    {
+      "firstName": "Sneh",
+      "lastName": "Thakur",
+      "order": 14,
+      "category": "ELITE",
+      "profilePicture": "./data/sneh/profile-pic.png"
+    },
+    {
+      "firstName": "Shangeev",
+      "lastName": "AP",
+      "order": 15,
+      "category": "CHAMPION",
+      "profilePicture": "./data/sangeev/profile-pic.png"
+    },
+    {
+      "firstName": "Karteek",
+      "lastName": "",
+      "order": 16,
+      "category": "CHAMPION",
+      "profilePicture": "./data/karteek/profile-pic.png"
+    },
+    {
+      "firstName": "Bhuvan",
+      "lastName": "Verma",
+      "order": 17,
+      "category": "CHAMPION",
+      "profilePicture": "./data/bhuvan/profile-pic.png"
+    },
+    {
+      "firstName": "Rajan",
+      "lastName": "S",
+      "order": 18,
+      "category": "ELITE",
+      "profilePicture": "./data/rajan/profile-pic.png"
+    },
+    {
+      "firstName": "Swapnil",
+      "lastName": "Dwivedi",
+      "order": 19,
+      "category": "CHAMPION",
+      "profilePicture": "./data/swapnil/profile-pic.png"
+    },
+    {
+      "firstName": "Thakur",
+      "lastName": "Arpit",
+      "order": 20,
+      "category": "CHAMPION",
+      "profilePicture": "./data/arpit-th/profile-pic.png"
+    },
+    {
+      "firstName": "Manikanth",
+      "lastName": "M",
+      "order": 21,
+      "category": "ELITE",
+      "profilePicture": "./data/manikanth/profile-pic.png"
+    },
+    {
+      "firstName": "Niket",
+      "lastName": "Dixit",
+      "order": 22,
+      "category": "CHAMPION",
+      "profilePicture": "./data/niket/profile-pic.png"
+    },
+    {
+      "firstName": "Army",
+      "lastName": "Vamsi",
+      "order": 23,
+      "category": "ELITE",
+      "profilePicture": "./data/army/profile-pic.png"
+    },
+    {
+      "firstName": "Piyush",
+      "lastName": "Jain",
+      "order": 24,
+      "category": "CHAMPION",
+      "profilePicture": "./data/piyush/profile-pic.png"
+    },
+    {
+      "firstName": "Barani",
+      "lastName": "",
+      "order": 25,
+      "category": "CHAMPION",
+      "profilePicture": "./data/barani/profile-pic.png"
+    },
+    {
+      "firstName": "Srijan",
+      "lastName": "Ashok",
+      "order": 26,
+      "category": "ELITE",
+      "profilePicture": "./data/srijan/profile-pic.png"
+    },
+    {
+      "firstName": "Karthik",
+      "lastName": "Munghate",
+      "order": 27,
+      "category": "CHAMPION",
+      "profilePicture": "./data/kartikM/profile-pic.png"
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "Devineni",
+      "order": 28,
+      "category": "CHAMPION",
+      "profilePicture": "./data/mahesh/profile-pic.png"
+    },
+    {
+      "firstName": "Aseem",
+      "lastName": "Gupta",
+      "order": 29,
+      "category": "ELITE",
+      "profilePicture": "./data/aseem/profile-pic.png"
+    },
+    {
+      "firstName": "Phalguni",
+      "lastName": "",
+      "order": 30,
+      "category": "ELITE",
+      "profilePicture": "./data/phalguni/profile-pic.png"
+    },
+    {
+      "firstName": "Nishanth",
+      "lastName": "Naidu",
+      "order": 31,
+      "category": "ELITE",
+      "profilePicture": "./data/nishanth-na/profile-pic.png"
+    },
+    {
+      "firstName": "Pavan",
+      "lastName": "Naidu",
+      "order": 32,
+      "category": "ELITE",
+      "profilePicture": "./data/pavan/profile-pic.png"
+    },
+    {
+      "firstName": "Sanjay",
+      "lastName": "Naidu",
+      "order": 33,
+      "category": "ELITE",
+      "profilePicture": "./data/sanjay/profile-pic.png"
+    },
+    {
+      "firstName": "Roshni",
+      "lastName": "Nair",
+      "order": 34,
+      "category": "CHALLENGER",
+      "profilePicture": "./data/roshni/profile-pic.png"
+    },
+    {
+      "firstName": "Mansa",
+      "lastName": "Kaur",
+      "order": 35,
+      "category": "CHALLENGER",
+      "profilePicture": "./data/mansa/profile-pic.png"
+    }
+  ]
+}

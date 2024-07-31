@@ -8,10 +8,17 @@ h1 {
     color: #FFFFFF;
 }
 .squad-container {
-    padding: 15% 0 0 4%;
+    padding: 2% 0 0 4%;
+    max-height: fit-content;
+    /* background: url('../../assets/images/bg-2.png'); */
+    background-color: #031a45;
+    background-size: cover;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
 
-.squad-container h1 {
+.squad-container .squad-h1 {
     font-family: 'Anton';
     font-style: normal;
     font-weight: 400;
@@ -19,10 +26,11 @@ h1 {
     line-height: 60px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .squad-item-container {
-border: 1px solid #E8E8E8;
+border: 1px solid #19398a;
 border-radius: 10px;
 width: 48%;
 height: 250px;
@@ -44,23 +52,23 @@ margin-right: 15px;
     display: flex;
     flex-direction: row;
     height:40px;
-    background-color: #FFFFFF;
-    border: 1px solid #E8E8E8;
+    background-color: #031a45;
+    border: 1px solid #19398a;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .squad-name {
-    font-family: 'Anton';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height */
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 55px;
 padding-left:20px; 
 
-color: #18193F;
+color: #fff;
 
 }
 
@@ -73,13 +81,14 @@ color: #18193F;
     /* identical to box height */
     padding-left:20px; 
     
-    color: rgb(21, 0, 255);
+    color: #fff;
     margin-right: 15px;
     margin-left: auto;
     
 }
 
 .player-list {
+   
     display: flex;
     width: 100%;
     height: 75%;
@@ -96,7 +105,7 @@ padding: 0 10px;
 backdrop-filter: blur(7.5px);
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 4px;
-width: 15%;
+width: 18%;
 height: 100%;
 margin-right: 5%;
 }
@@ -129,22 +138,23 @@ border-top-left-radius:8px;
     max-width: 60px;
     overflow-x: hidden;
     white-space: nowrap;
-    font-family: 'Nunito';
+    font-family: 'Anton';
 font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
 color: #18193F;
 text-overflow: ellipsis;
 padding: 0 5px 0 5px;
 }
 .price {
-border-radius: 2px;
-font-family: 'Anton';
+    font-family: 'Nunito';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+border-radius: 2px;
+
 display: flex;
 align-items: center;
 text-align: center;
@@ -268,6 +278,9 @@ line-height: 38px;
 display: flex;
 align-items: center;
 text-align: center;
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 color: #FFFFFF;
 }
@@ -392,13 +405,12 @@ border-radius: 5px;
   }
 
   .unsold-list {
+    border: 1px solid #031a45;
     display: flex;
   align-items: center;
   /* justify-content: space-around; */
   padding: 20px;
-  border-bottom: 1px solid white;
   flex-wrap: wrap;
- width: 95%;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 5px;
   margin-right: 20px;

@@ -1,23 +1,48 @@
 {
-    "data": [{
-            "name": "Bullet",
-            "key": "BULLET",
+    "data": [
+        {
+            "name": "Jasprit Bumrah",
+            "key": "FAN",
             "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Ankit",
-                "lastName" : "",
+                "firstName" : "Sahil",
+                "lastName" : "Ayank",
+                "order" : 1,
                 "category" : "CHAMPION",
-                "profilePicture": "./data/ankit/profile-pic.png"           
+                "profilePicture": "./data/sahil/profile-pic.png"              
             },
             "players": []
-        },
-        {
-            "name": "Continental GT",
-            "key": "CONTINENTAL",
+        }, {
+            "name": "Ravindra Jadeja",
+            "key": "GOG",
             "balanceAmount" : 0,
             "captain" : {
-                "firstName" : "Vamsi K",
-                "lastName" : "Dash",
+                "firstName" : "Prinz",
+                "lastName" : "Dom",
+                "order" : 6,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/prinz/profile-pic.png"      
+            },
+            "players": []
+        }, {
+            "name": "Rishabh Pant",
+            "key": "HLS",
+            "balanceAmount" : 0,
+            "captain" : {
+                "firstName" : "Subir",
+                "lastName" : "",
+                "order" : 1,
+                "category" : "CHAMPION",
+                "profilePicture": "./data/subir/profile-pic.png"             
+            },
+            "players": []
+        },{
+            "name": "Rohit Sharma",
+            "key": "MRW",
+            "balanceAmount" : 0,
+            "captain" : {
+                "firstName" : "Vamsi",
+                "lastName" : "K",
                 "order" : 1,
                 "category" : "MARQUEE",
                 "profilePicture": "./data/vamsi/profile-pic.png"           
@@ -25,51 +50,41 @@
             "players": []
         },
         {
-            "name": "Himalayan",
-            "key": "HIMALAYAN",
-            "balanceAmount" : 0,
-            "captain" : {
-                "firstName" : "Sharat",
-                "lastName" : "Mathew",
-                "order" : 1,
-                "category" : "MARQUEE",
-                "profilePicture": "./data/sharat/profile-pic.png"              
-            },
-            "players": []
-        }, {
-            "name": "Hunter",
-            "key": "HUNTER",
-            "balanceAmount" : 0,
-            "captain" : {
-                "firstName" : "Minkesh",
-                "lastName" : "Gupta",
-                "order" : 6,
-                "category" : "MARQUEE",
-                "profilePicture": "./data/minkesh/profile-pic.png"      
-            },
-            "players": []
-        }, {
-            "name": "Interceptor",
-            "key": "INTERCEPTOR",
-            "balanceAmount" : 0,
-            "captain" : {
-                "firstName" : "Viraj",
-                "lastName" : "",
-                "order" : 1,
-                "category" : "CHAMPION",
-                "profilePicture": "./data/viraj/profile-pic.png"             
-            },
-            "players": []
-        },{
-            "name": "Meteor",
-            "key": "METEOR",
+            "name": "Sanju Samson",
+            "key": "THP",
             "balanceAmount" : 0,
             "captain" : {
                 "firstName" : "Navneet",
-                "lastName" : "Gaur",
+                "lastName" : "",
                 "order" : 1,
                 "category" : "ELITE",
                 "profilePicture": "./data/navneet/profile-pic.png"           
+            },
+            "players": []
+        },
+        {
+            "name": "Suryakumar",
+            "key": "THT",
+            "balanceAmount" : 0,
+            "captain" : {
+                "firstName" : "Ajay",
+                "lastName" : "",
+                "order" : 1,
+                "category" : "MARQUEE",
+                "profilePicture": "./data/ajay/profile-pic.png"           
+            },
+            "players": []
+        },
+        {
+            "name": "Virat Kohli",
+            "key": "WSA",
+            "balanceAmount" : 0,
+            "captain" : {
+                "firstName" : "Rishabh",
+                "lastName" : "",
+                "order" : 1,
+                "category" : "ELITE",
+                "profilePicture": "./data/rishabh/profile-pic.png"           
             },
             "players": []
         }

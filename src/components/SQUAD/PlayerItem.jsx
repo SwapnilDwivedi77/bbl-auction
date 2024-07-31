@@ -1,5 +1,5 @@
 import React from 'react'
-import { BASE_PRICE, CATEGORY_COLOR } from '../../constant';
+import { BASE_PRICE, CAPTAIN_COST_FACTOR, CATEGORY_COLOR } from '../../constant';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faC, faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,7 +21,7 @@ export const PlayerItem = ({ player, captain = false, row = false }) => {
             <div className="price">
               ₹{" "}
               {captain
-                ? 1.5 * BASE_PRICE[player.category]
+                ? CAPTAIN_COST_FACTOR[player.category] * BASE_PRICE[player.category]
                 : player.soldPrice || BASE_PRICE[player.category]}
               {captain && (
                 <div className="captain">

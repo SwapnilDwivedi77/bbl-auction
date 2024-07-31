@@ -23,4 +23,24 @@ export const BASE_PRICE = {
 
 }
 
+export const CAPTAIN_COST_FACTOR = {
+    [PLAYER_CATEGORY.MARQUEE] : 1.75,
+    [PLAYER_CATEGORY.CHAMPION] : 1.5,
+    [PLAYER_CATEGORY.ELITE] : 1.25,
+    [PLAYER_CATEGORY.CHALLENGER] : 1
+
+}
+
+export const teamDropdownValue =  [
+    {teamName : 'Jasprit Bumrah',key:'FAN'},
+    {teamName : 'Ravindra Jadeja',key:'GOG'},
+    {teamName : 'Rishabh Pant',key:'HLS'},
+    {teamName : 'Rohit Sharma',key:'MRW'},
+    {teamName : 'Sanju Samson',key:'THP'},
+    {teamName : `SuryaKumar`,key:'THT'},
+    {teamName : `Virat Kohli`,key:'WSA'},
+  ]
+
+
+
 export const IMG_BASE_URL = '/Users/nil_07/Desktop/My_Folder/bbl-auction/public/data'

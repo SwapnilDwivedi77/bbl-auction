@@ -34,19 +34,19 @@ function Auction({
   const [auctionPlayer, setAuctionPlayer] = useState(unSoldList[0]);
   const [selectedTeam, setSelectedTeam] = useState("");
   const [visibleConffeti, setVisibleConffeti] = useState(false);
-console.log({unSoldList})
+//console.log({unSoldList})
   const handleNextPlayer = () => {
     let skippedPlayer = unSoldList.splice(0, 1)[0];
     skippedPlayer.order = unSoldList[unSoldList.length - 1].order + 1;
     unSoldList.push(skippedPlayer);
-    console.log({unSoldList})
+    //console.log({unSoldList})
     setUnSoldPlayers(unSoldList);
     setCurrentPlayerIndex(0);
     setAuctionPlayer(unSoldList[0]);
   };
 
   const handleDropdownChange = (value) => {
-    console.log(value);
+    //console.log(value);
     setSelectedTeam(value);
   };
 
@@ -67,18 +67,18 @@ console.log({unSoldList})
   const handleSoldAction = () => {
     let updateTeamList = [...teamsList];
 
-    console.log({teamsList,updateTeamList})
+    //console.log({teamsList,updateTeamList})
     let soldTeamIndex = updateTeamList.findIndex(
       (team) => team.key === selectedTeam
     );
     let soldPlayer = unSoldList.splice(0, 1)[0];
     let playerSold = auctionPlayer;
-    console.log({soldPlayer,playerSold})
+    //console.log({soldPlayer,playerSold})
     let soldPrice = parseInt(document.getElementById("bid").value);
 
     playerSold["soldPrice"] = soldPrice;
     updateTeamList[soldTeamIndex].players.push(playerSold);
-    console.log(teamsList, updateTeamList);
+    //console.log(teamsList, updateTeamList);
     setTeamsList(updateTeamList);
     // write updated team to local storage
     writeToLocalStorage("teamsData", updateTeamList);
@@ -106,7 +106,7 @@ console.log({unSoldList})
 
   return (
     <div className="auction-container">
-      <h1>AUCTION</h1>
+      
 
       {!isEmpty(auctionPlayer) && (
         <div className="player-data">

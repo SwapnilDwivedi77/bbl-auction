@@ -1,13 +1,9 @@
 .app {
-  background-image: url('./assets/images/bg-3.png');
   background-size: cover;
-  width: 100vw;
-  height: 600vh;
   position: absolute;
   top: 0;
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
-  background-color: #1A8CFA;
 }
 

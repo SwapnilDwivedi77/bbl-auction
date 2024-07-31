@@ -3,14 +3,17 @@ import styled from 'styled-components';
 
 const Card = styled.div`
   width:200px;
-  background-color: #fff;
+  margin-bottom:90px;
+  background-color: #041a45;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  border:1px solid #19398a;
+  color:#fff;
 `;
 
 const Header = styled.div`
-  background-color: #333;
+  background-color: #19398a;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -58,7 +61,7 @@ const SkillsCard = ({team,getTeamPurse}) => {
     const getMaxBid = (team) => {
 
         let playersRemaining = 5 - team.players.length-1;
-        console.log({playersRemaining})
+        
         
         let maxBidAllowed = getTeamPurse(team) - (playersRemaining)*9000;
         return maxBidAllowed;

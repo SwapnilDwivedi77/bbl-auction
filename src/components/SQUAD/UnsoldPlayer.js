@@ -19,7 +19,6 @@ const UnsoldPlayerList = ({ unSoldPlayers }) => {
 
   return (
     <div className="">
-      <h1>Upcoming Players</h1>
       <div className="player-list unsold-list">
         {!isEmpty(unSoldPlayers) && renderPlayerItemsByCategory(PLAYER_CATEGORY.MARQUEE)}
         {!isEmpty(unSoldPlayers) && renderPlayerItemsByCategory(PLAYER_CATEGORY.CHAMPION)}

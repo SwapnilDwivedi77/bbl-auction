@@ -11,6 +11,7 @@ import {
 } from "../../crud";
 import {
   BASE_PRICE,
+  CAPTAIN_COST_FACTOR,
   CATEGORY_COLOR,
   PLAYER_CATEGORY,
   TOTAL_PURSE,
@@ -26,10 +27,9 @@ import TeamCard from "./TeamData";
 
 
 const getTeamPurse = (team) => {
-  console.log("🚀 ~ file: Squad.js:29 ~ getTeamPurse ~ team:", team)
   
   let remainingAmount = TOTAL_PURSE + parseInt(team.balanceAmount);
-  remainingAmount -= (team.key === "METEOR" ? 1.5 : 1.5) * BASE_PRICE[team.captain.category];
+  remainingAmount -= CAPTAIN_COST_FACTOR[team.captain.category] * BASE_PRICE[team.captain.category];
   !isEmpty(team.players) &&
     team.players.forEach(
       (player) => (remainingAmount -= parseInt(player.soldPrice))
@@ -42,7 +42,7 @@ display:flex;
 flex-direction:row;
 flex-wrap:wrap;
 justify-content:space-around;
-margin: 0 20px 0 -40px;`
+margin: 15px 20px 60px -40px;`
 
 const SquadItem = ({ team }) => {
   return (
@@ -50,8 +50,8 @@ const SquadItem = ({ team }) => {
       <div className="squad-item-container">
         <div className="squad-item-header">
           <div className="squad-name">{team.name} </div>
-          <span style={{ "font-weight": "normal", margin: "8px" }}>{`(${
-            team.players.length + 1
+          <span className="squad-name" style={{ "font-weight": "normal",fontSize:'20px',color:'#fff' }}>{`(${
+            team?.players.length + 1
           }/6)`}</span>
           <div className="squad-purse">₹ {getTeamPurse(team)}</div>
         </div>
@@ -72,10 +72,10 @@ display:flex;
 flex-direction:row;
 `
 const LeftSection = styled.div`
-flex:.4
+flex:.3
 `
 const RightSection = styled.div`
-flex:.6
+flex:.7
 `
 
 function Squad() {
@@ -84,29 +84,30 @@ function Squad() {
   const [soldPlayers, setSoldPlayers] = useState([]);
   const [unSoldPlayers, setUnSoldPlayers] = useState([]);
 
-  console.log("teamList", teamsList);
+  //console.log("teamList", teamsList);
 
   async function fetchPlayers() {
     try {
       const data = await readJSONFile("./data/playersData.json");
       return data;
     } catch (error) {
-      console.error(error);
+      //console.error(error);
       // handle error
     }
   }
   async function fetchTeamData() {
     try {
       const data = await readJSONFile("./data/teamList.json");
+      console.log(data)
       return data;
     } catch (error) {
-      console.error(error);
+      //console.error(error);
       // handle error
     }
   }
 
   function updateUnsoldPlayers(list) {
-    console.log({ list });
+    //console.log({ list });
     list = list.sort((a, b) => a.order - b.order);
     setUnSoldPlayers(list);
     writeToLocalStorage("unsoldPlayers", list);
@@ -117,7 +118,7 @@ function Squad() {
   }
 
   function filterPlayers(players, teamsData) {
-    console.log("FILTER FUNCTION CALLED", players, teamsData);
+    //console.log("FILTER FUNCTION CALLED", players, teamsData);
     let playersList = players;
     let sold = [];
     let unsold = [];
@@ -128,7 +129,7 @@ function Squad() {
     unsold = playersList.filter((player) =>
       sold.every((p) => p.firstName !== player.firstName)
     );
-    console.log({ sold, unsold });
+    //console.log({ sold, unsold });
     updateUnsoldPlayers(unsold);
     updateSoldPlayers(sold);
   }
@@ -151,7 +152,7 @@ function Squad() {
 
   return (
     <div className="squad-container">
-      <h1>SQUADS</h1>
+      {/* <div className="squad-h1">SQUADS</div> */}
       <div className="squad-list" id="squad-list">
         {!isEmpty(teamsList) &&
           teamsList.map((team, i) => <SquadItem key={i} team={team} />)}
